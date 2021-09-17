@@ -1,0 +1,49 @@
+
+
+.page-title{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transition: 1s;
+}
+.container-fluid{
+    background-color: rgb(19, 17, 19);
+    background-image: url(http://2.bp.blogspot.com/-8hwYumgHOUI/TgB3DGlH3JI/AAAAAAAAHOc/kU5xiqyDzrY/s1600/1273-etoiles-WallFizz.jpg);
+}
+.page-title:hover{
+    color: rgb(27, 27, 27);
+    background-color: white;
+    transition: 0.5s;
+}
+.alert-danger{
+    text-indent: -9999px;
+    line-height: 0;
+}
+.alert-danger::after {
+content: "Et hop une absence de plus ";
+text-indent: 0;
+display: block;
+line-height: initial;
+font-size: larger;
+}
+.scrollable{
+    filter: grayscale(1);
+    justify-content: right;
+    transition: 3s;
+}
+
+.scrollable:hover{
+    filter: grayscale(0);
+    transition: 1s;
+}
+p{
+    color: darkgray;
+}
+.override{
+    background-color: black;
+    
+}
+
+.btn-danger{
+background-color: darkorchid;
+}
