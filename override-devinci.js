@@ -37,29 +37,3 @@ function alert_infos_colors() {
 
 alert_infos_colors();    
 
-
-/*
-
-function alert_infos_red() {
-    alert_info_text.style.color = 'red';
-}
-
-function alert_infos_green() {
-    alert_info_text.style.color = 'green';
-}
-
-function alert_infos_blue() {
-    alert_info_text.style.color = 'blue';
-}
-
-while (i=0) {
-    i=0;
-    function alert_infos_colors() {
-        setTimeout(alert_infos_red, 1000);
-        setTimeout(alert_infos_green, 1000);
-        setTimeout(alert_infos_blue, 1000);  
-    }
-}
-*/
-
-
