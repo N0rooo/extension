@@ -1,3 +1,104 @@
-.override{
-    background-color: black;
+/* Home page */
+
+.override {
+    background-color: #f07d00;
+    
+}
+
+.scrollable {
+    background-image: url('https://www.speedrun.com/gameasset/m1zwn310/cover?v=3b4823c');
+    background-repeat: repeat;
+    color: white;
+    filter: grayscale(1);
+    justify-content: right;
+    transition: 3s;
+}
+
+.scrollable:hover{
+    filter: grayscale(0);
+    transition: 1s;
+}
+
+.row-fluid {
+    background-image: url('https://images.frandroid.com/wp-content/uploads/2019/05/windows-xp-hd.jpg');
+}
+
+#liste_offres_stages {
+    background-color: yellowgreen;
+}
+
+.fc-bg, p{
+    text-indent: -9999px;
+    line-height: 0; } 
+.fc-bg, a::after { 
+    content: "IMM";
+    text-indent: 0;
+    display: block;
+    line-height: initial;
+    font-size: medium; 
+}
+
+.menu, .user, .navigation-sidebar {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.page-title{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transition: 1s;
+}
+
+.container-fluid{
+    background-image: url(http://2.bp.blogspot.com/-8hwYumgHOUI/TgB3DGlH3JI/AAAAAAAAHOc/kU5xiqyDzrY/s1600/1273-etoiles-WallFizz.jpg);
+}
+.page-title:hover{
+    color: rgb(27, 27, 27);
+    background-color: white;
+    transition: 0.5s;
+}
+
+.nav-messages-header{
+    text-indent: -9999px;
+    line-height: 0; } 
+    .nav-messages-header::after { 
+        content: "Je suis désolé mais il y'a rien";
+        text-indent: 0;
+        display: block;
+        line-height: initial;
+        font-size: larger; 
+    }
+
+.nav-messages-footer{
+    text-indent: -9999px;
+    line-height: 0;
+} 
+.nav-messages-footer::after { 
+    content: "Je suis désolé mais il y'a toujours rien";
+    text-indent: 0;
+    display: block;
+    line-height: initial;
+    font-size: medium; 
+}
+
+
+.container-fluid{
+    color: violet;
+}
+
+
+
+/* Page abscence */
+
+
+.alert-danger{
+    text-indent: -9999px;
+    line-height: 0;
+}
+.alert-danger::after {
+content: "Et hop une absence de plus ";
+text-indent: 0;
+display: block;
+line-height: initial;
+font-size: larger;
 }
