@@ -1,0 +1,25 @@
+.override {
+    background-color: #f07d00;
+    
+}
+
+.row-fluid {
+    background-image: url('https://images.frandroid.com/wp-content/uploads/2019/05/windows-xp-hd.jpg');
+}
+
+#liste_offres_stages {
+    background-color: yellowgreen;
+}
+
+.scrollable {
+    background-image: url('https://www.speedrun.com/gameasset/m1zwn310/cover?v=3b4823c');
+    background-repeat: repeat;
+    color: white;
+}
+
+.menu, .user, .navigation-sidebar {
+    background-color: rgba(1, 1, 1, 0.5);
+    color: white;
+}
+
+
