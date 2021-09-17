@@ -1,3 +1,17 @@
+
+.wraper{
+    background-color: blue;
+}
+.page-title{
+    color: chocolate;
+    text-align: right;
+}
+.panel-body{
+    background-color: darkgrey;
+}
+p{
+    color: darkgray;
+}
 .override{
     background-color: black;
 }
